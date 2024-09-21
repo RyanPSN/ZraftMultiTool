@@ -13,10 +13,7 @@ namespace LearnCSharp
 
             Console.WriteLine($"You Will Have: ${calc}");
             Console.ReadLine();
-        
-        
         }
-
 
 
     }
@@ -64,8 +61,8 @@ namespace LearnCSharp
 
                     Console.WriteLine("Enter Option: ");
                     var option = Console.ReadLine();
-                    
-                    switch(option)
+
+                    switch (option)
                     {
                         case "Monthly":
 
@@ -76,7 +73,7 @@ namespace LearnCSharp
 
 
                             M.getMainAmount(M.xPrice, M.yPrice);
-                           
+
                             Console.ReadLine();
                             break;
 
@@ -104,9 +101,6 @@ namespace LearnCSharp
                             break;
 
                     }
-
-
-
 
                     Console.ReadKey();
 
